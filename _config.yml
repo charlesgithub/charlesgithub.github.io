@@ -1,0 +1,27 @@
+# Site settings
+title: Errol Technologies
+email: charlesmichel@outlook.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# custom-code
+# solve the issue: C:/Ruby200/lib/ruby/gems/2.0.0/gems/posix-spawn-0.3.9/lib/posix/spawn.rb:164: warning: cannot close fd before spawn
+# which' is not recognized as an internal or external command,operable program or batch file.
+# Dev:Charles Michel.B
+highlighter: pygments,rough
+
+
+#custom-code
+#Dev:Charles Michel
+include: ['_pages']
+
+#custom-code
+#Dev:Charles Michel
+excerpt_separator: "<!-- more -->"
